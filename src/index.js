@@ -14,8 +14,11 @@ let router = createBrowserRouter([
   {
     path: "/",
     Component: App 
-  },
-]);
+  }
+],
+  {
+    basename: "/data-portfolio"
+  });
 
 ReactDOM.createRoot(root).render(
   <RouterProvider router={router} />

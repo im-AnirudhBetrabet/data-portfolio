@@ -23,10 +23,10 @@ function Navbar() {
               <div></div>
             </div>
             <div className={`mobile-nav ${displayMenu ? 'active' : ''}`} id="mobileMenu">
-              <a href="#about">About</a>
-              <a href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
+              <a href="#about" onClick={toggleMenu}>About</a>
+              <a href="#skills" onClick={toggleMenu}>Skills</a>
+              <a href="#projects" onClick={toggleMenu}>Projects</a>
+              <a href="#contact" onClick={toggleMenu}>Contact</a>
             </div>
         </header>
   )

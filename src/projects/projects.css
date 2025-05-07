@@ -1,0 +1,12 @@
+.projects .project-placeholder {
+    border: 2px dashed #cbd5e1;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #f1f5f9;
+    text-align: center;
+    color: #64748b;
+    font-size: 1rem;
+  }
+.projects h2{
+    margin-bottom: 1rem;
+}
